@@ -13,6 +13,8 @@
 		C7BB695823108B6700DB439F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BB695723108B6700DB439F /* Assets.xcassets */; };
 		C7BB695B23108B6700DB439F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BB695A23108B6700DB439F /* Preview Assets.xcassets */; };
 		C7BB695E23108B6700DB439F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB695C23108B6700DB439F /* LaunchScreen.storyboard */; };
+		C7BB696623108BD000DB439F /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB696523108BD000DB439F /* BarGraph.swift */; };
+		C7BB696823108D8400DB439F /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB696723108D8400DB439F /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C7BB695A23108B6700DB439F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7BB695D23108B6700DB439F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7BB695F23108B6700DB439F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BB696523108BD000DB439F /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		C7BB696723108D8400DB439F /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C7BB695C23108B6700DB439F /* LaunchScreen.storyboard */,
 				C7BB695F23108B6700DB439F /* Info.plist */,
 				C7BB695923108B6700DB439F /* Preview Content */,
+				C7BB696523108BD000DB439F /* BarGraph.swift */,
+				C7BB696723108D8400DB439F /* Report.swift */,
 			);
 			path = "70-GraphDemo";
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BB696623108BD000DB439F /* BarGraph.swift in Sources */,
+				C7BB696823108D8400DB439F /* Report.swift in Sources */,
 				C7BB695223108B6600DB439F /* AppDelegate.swift in Sources */,
 				C7BB695423108B6600DB439F /* SceneDelegate.swift in Sources */,
 				C7BB695623108B6600DB439F /* ContentView.swift in Sources */,
